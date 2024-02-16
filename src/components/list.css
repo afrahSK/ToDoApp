@@ -1,0 +1,17 @@
+.fw-bold{
+    background-color: transparent !important;
+}
+.list{
+    width: 50%;
+    margin: auto;
+    margin-top: 2rem;
+}
+.list > ol > li{
+    transition: all 55ms ease;
+}
+.list > ol > li:hover{
+    background-color: paleturquoise;
+}   
+.btn{
+    margin-left: 2rem;
+}

@@ -1,0 +1,61 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* display: inline-block; */
+}
+.planbox{
+    height: 40vh;
+    width: 60vw;
+    max-width: 30rem;
+    background-color: #194565;
+    margin: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    row-gap: 1rem;
+    box-shadow: 3px 3px #5f9dc6;
+    padding-top: 2rem;
+}
+.planbox:hover{
+    box-shadow: 8px 8px #91AEC4;
+}
+.inp{
+    width: 50%;
+    font-size: 1.45rem;
+    padding:0.4rem;
+    background-color: white;
+    border-radius: 1rem;
+    /* color: white; */
+}
+.inpDays{
+    width: 50%;
+    height: auto;
+    resize: horizontal;
+    background-color: white;
+    font-size: 1.45rem;
+    padding:0.4rem;
+    border-radius: 1rem;
+}
+.lbl{
+    color: white;
+    font-size: 1.65rem;
+    background-color: transparent;
+}
+.btnAdd{
+    /* max-width: 20rem; */
+    width: 7rem;
+    background-color: #4e7593;
+    /* margin-left: 6.5rem; */
+    font-size: 1.65rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 1rem;
+    /* box-shadow: 4px 5px #B7D0E1; */
+    transition: all 65ms ease;
+}
+.btnAdd:hover{
+    background-color: #91AEC4;
+}

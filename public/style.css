@@ -1,0 +1,12 @@
+
+.h1{
+    text-align: center;
+    background-color: rgb(43, 193, 252);
+    color: white;
+    font-size: 2.75rem;
+    padding: 10px;
+}
+.content{
+    display: flex;
+    align-items: center;
+}
